@@ -1,40 +1,35 @@
-table {
-        width:10%;
-        height:10%;
-        border-spacing: 0;
-        border-collapse: collapse;
-        overflow: hidden;
-        z-index: 1;
-    }
-    
-    td, th {
-        cursor: pointer;
-        padding: 10px;
-        position: relative;
-    }
-    
-    td:hover::before { 
-        background-color: #ffa;
-        content: '\00a0';  
-        height: 100%;
-        left: -5000px;
-        position: absolute;  
-        top: 0;
-        width: 10000px;   
-        z-index: -1;        
-    }
-    
-    td:hover::after { 
-        background-color: #ffa;
-        content: '\00a0';  
-        height: 10000px;    
-        left: 0;
-        position: absolute;  
-        top: -5000px;
-        width: 100%;
-        z-index: -1;        
-    }
 
- tr:nth-child(odd){
-       background-color: rgba(1, 1, 0, 0.1);
+div#dataslate {
+  width: 1003px;
+  height: 1463px;
+  background-image: url("https://forumupload.ru/uploads/001c/6b/2b/33/28244.png");
+  background-repeat: no-repeat;
+  padding: 5% 30% 7% 8%;
 }
+div#planet {
+  width:490px;
+  height:240px;
+  display: block;
+  align-self: top;
+  padding: 3% 10% 5% 3%;
+}
+div#chronology {
+  width:740px;
+  display: block;
+  align-self: center;
+  padding: 5%;
+  height:700px;
+  overflow-x: hidden;
+  scrollbar-width: auto;
+  scrollbar-color: #1a2c2d #5e6a6c;
+}
+
+p {
+  font-weight: bold;
+  font-style: heavy;
+  font-size: 30px;
+}
+.tg  {border:none;border-collapse:collapse;border-color:#bbb;}
+.tg .tg-lboi{border-color:inherit;text-align:left;}
+.tg .tg-cey4{border-color:inherit;font-size:15px;font-weight:bold;text-align:center;}
+.tg .tg-yg9r{border-color:inherit;font-size:20px;font-weight:bold;text-align:left;}
